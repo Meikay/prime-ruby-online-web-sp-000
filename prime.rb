@@ -2,10 +2,10 @@ require 'pry'
 def prime?(int)
   (2..number-1).each do |num|
     if int%num == 0
-      return false 
+      return false
     end
   end
-  return true   
+  return true
 end
 # def prime? (n)
 #     if n <= 1
