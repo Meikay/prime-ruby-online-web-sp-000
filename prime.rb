@@ -3,15 +3,14 @@ def prime?(int)
   if int < 0
     return false
   end
-  (2..int -1).each do |num|
+  (2..int - 1).each do |num|
      if int%num == 0
        return false
-     elsif
-       int <= 0
+     elsif int <= 0
        return false
      end
-   return true
-end
+   end
+   true
 end
 
 
