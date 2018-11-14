@@ -1,7 +1,7 @@
 require 'pry'
 def prime?(int)
   (2..int -1).each do |num|
-    if int%num == 0 || int == int < 0
+    if int%num == 0 || int < 0
       return false
     end
   end
