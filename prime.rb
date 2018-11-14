@@ -1,16 +1,14 @@
 require 'pry'
 def prime?(int)
   (2..int -1).each do |num|
-    if int < 2
-   return false
      elsif int%num == 0
        return false
      end
-  #   elsif
-  #     int <= 0
-  #     return false
-  #   end
-  # end
+     elsif
+       int <= 0
+       return false
+     end
+   end
    return true
 end
 end
