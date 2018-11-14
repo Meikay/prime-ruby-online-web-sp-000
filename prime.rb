@@ -1,5 +1,5 @@
 require 'pry'
-def prime?(int)
+def prime?(int) #num passes through the loops till it figures out if it's prime(returns: false) or else: returns true
   if int <= 1
     return false
   end
@@ -11,15 +11,3 @@ def prime?(int)
    true
 end
 
-
-
-
-# def prime? (n)
-#     if n <= 1
-#         false
-#     elsif n == 2
-#         true
-#     else
-#         (2..n/2).none? { |i| n % i == 0}
-#     end
-# end
