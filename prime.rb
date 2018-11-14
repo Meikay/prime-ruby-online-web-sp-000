@@ -1,6 +1,6 @@
 require 'pry'
 def prime?(int)
-  if int < 3
+  if int < 0
     return false
   end
   (2..int -1).each do |num|
