@@ -5,6 +5,7 @@ def prime?(int)
    return false
      elsif int%num == 0
        return false
+     end
   #   elsif
   #     int <= 0
   #     return false
