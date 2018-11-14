@@ -4,8 +4,8 @@ def prime?(int)
     if int < 2
    return false
 end
-  #   if int%num == 0
-  #     return false
+     elsif int%num == 0
+       return false
   #   elsif
   #     int <= 0
   #     return false
